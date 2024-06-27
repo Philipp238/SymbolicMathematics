@@ -20,7 +20,7 @@ from torch.nn.utils import clip_grad_norm_
 from .optim import get_optimizer
 from .utils import to_cuda
 
-if torch.cuda.is_available():
+if torch.cuda.is_available() and False:
     import apex
 
 
